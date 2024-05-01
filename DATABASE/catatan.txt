@@ -1,0 +1,26 @@
+Akses index/home
+http://home.localhost:8080
+
+Akses Admin
+http://admin.localhost:8080/login
+User admin : admin@admin.com
+pass admin : admin
+
+Akses Member
+http://home.localhost:8080/login
+user member : reydinda@gmail.com
+pass member : reydinda
+
+NOTE!!
+Ikuti langkah tutotial cara installasi.
+karena installasi ci4 berbeda dengan ci3
+1. Instal composer
+2. Instal Visual Studio Code
+
+Untuk bisa mengakases halaman admin dan undangan yang telah dipesan
+harus membuat subdoman lokal.
+contoh :
+admin.localhost:8080
+undangan.localhost:8080
+home.localhost:8080
+

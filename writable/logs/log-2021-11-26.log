@@ -1,0 +1,118 @@
+INFO - 2021-11-26 08:21:20 --> Controller "CodeIgniter\CLI\CommandRunner" loaded.
+INFO - 2021-11-26 08:21:52 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2021-11-26 08:21:56 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\SIDOINIKAHV2\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SIDOINIKAHV2\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SIDOINIKAHV2\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\SIDOINIKAHV2\app\Models\base\BerandaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SIDOINIKAHV2\app\Controllers\base\Beranda.php(26): App\Models\base\BerandaModel->get_all_themes()
+#5 C:\xampp\htdocs\SIDOINIKAHV2\system\CodeIgniter.php(910): App\Controllers\base\Beranda->index()
+#6 C:\xampp\htdocs\SIDOINIKAHV2\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#7 C:\xampp\htdocs\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-26 08:21:56 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\SIDOINIKAHV2\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\SIDOINIKAHV2\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\base\Beranda), true)
+#2 C:\xampp\htdocs\SIDOINIKAHV2\system\Debug\Exceptions.php(298): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SIDOINIKAHV2\system\Debug\Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-11-26 08:21:57 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2021-11-26 08:22:01 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\SIDOINIKAHV2\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SIDOINIKAHV2\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SIDOINIKAHV2\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\SIDOINIKAHV2\app\Models\base\BerandaModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SIDOINIKAHV2\app\Controllers\base\Beranda.php(26): App\Models\base\BerandaModel->get_all_themes()
+#5 C:\xampp\htdocs\SIDOINIKAHV2\system\CodeIgniter.php(910): App\Controllers\base\Beranda->index()
+#6 C:\xampp\htdocs\SIDOINIKAHV2\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#7 C:\xampp\htdocs\SIDOINIKAHV2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIDOINIKAHV2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIDOINIKAHV2\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2021-11-26 08:22:34 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-11-26 08:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:23:04 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2021-11-26 08:23:04 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-11-26 08:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:23:09 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2021-11-26 08:23:20 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-11-26 08:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:23:40 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:23:53 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:23:54 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:24:20 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:24:20 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:24:42 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:26:04 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:26:16 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:26:37 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:27:20 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:27:24 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:27:33 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2021-11-26 08:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:27:47 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:28:08 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:28:09 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:28:27 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:28:37 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:28:43 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:29:12 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:29:12 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:33:46 --> Controller "CodeIgniter\CLI\CommandRunner" loaded.
+INFO - 2021-11-26 08:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:33:54 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2021-11-26 08:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:33:59 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2021-11-26 08:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:34:40 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2021-11-26 08:34:40 --> Unknown database 'db_mywedding'
+#0 C:\xampp\htdocs\myweddingv2\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myweddingv2\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myweddingv2\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `order`....', Array, false)
+#3 C:\xampp\htdocs\myweddingv2\app\Models\admin\AdminModel.php(276): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myweddingv2\app\Controllers\admin\Admin.php(68): App\Models\admin\AdminModel->get_all_join()
+#5 C:\xampp\htdocs\myweddingv2\system\CodeIgniter.php(910): App\Controllers\admin\Admin->dashboard()
+#6 C:\xampp\htdocs\myweddingv2\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#7 C:\xampp\htdocs\myweddingv2\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myweddingv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myweddingv2\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-26 08:34:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\myweddingv2\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\myweddingv2\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\admin\Admin), true)
+#2 C:\xampp\htdocs\myweddingv2\system\Debug\Exceptions.php(298): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\myweddingv2\system\Debug\Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-11-26 08:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-11-26 08:34:41 --> Controller "App\Controllers\admin\Admin" loaded.
